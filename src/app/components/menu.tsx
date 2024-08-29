@@ -55,7 +55,7 @@ export default function Menu() {
 										href={href}
 										className={`block py-2 px-3 rounded md:border-0 md:hover:text-blue-600 md:p-0    ${
 											pathname === href
-												? "bg-blue-600 md:bg-transparent md:text-blue-600 underline underline-offset-8"
+												? "bg-blue-600 md:bg-transparent md:text-blue-600 underline underline-offset-8 decoration-2"
 												: "hover:bg-gray-500 md:hover:bg-transparent"
 										}`}
 									>
