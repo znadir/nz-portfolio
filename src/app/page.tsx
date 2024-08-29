@@ -1,3 +1,15 @@
+"use client";
+
 export default function Home() {
-	return <main></main>;
+	return (
+		<>
+			<style jsx global>{`
+				body {
+					background-image: url("/coding-bg.png");
+					background-size: cover;
+					background-attachment: fixed;
+				}
+			`}</style>
+		</>
+	);
 }
