@@ -1,9 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Menu() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const pathname = usePathname();
 
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
@@ -15,10 +17,6 @@ export default function Menu() {
 		{ href: "/projects", label: "Projects" },
 		{ href: "/contact", label: "Contact" },
 	];
-
-	const isPageHref = (href: string) => {
-		return window.location.pathname === href;
-	};
 
 	return (
 		<>
@@ -50,14 +48,14 @@ export default function Menu() {
 						</svg>
 					</button>
 					<div className={`${isMenuOpen ? "block" : "hidden"} w-full md:block md:w-auto`}>
-						<ul className='font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0'>
+						<ul className='font-medium text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-16 rtl:space-x-reverse md:mt-0 md:border-0'>
 							{links.map(({ href, label }) => (
 								<li key={href}>
 									<a
 										href={href}
 										className={`block py-2 px-3 rounded md:border-0 md:hover:text-blue-600 md:p-0    ${
-											isPageHref(href)
-												? "bg-blue-600 md:bg-transparent md:text-blue-600 underline"
+											pathname === href
+												? "bg-blue-600 md:bg-transparent md:text-blue-600 underline underline-offset-8"
 												: "hover:bg-gray-500 md:hover:bg-transparent"
 										}`}
 									>

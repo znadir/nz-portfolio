@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Kumbh_Sans } from "next/font/google";
 import "./globals.css";
 import Menu from "./components/menu";
 
-const inter = Inter({ subsets: ["latin"] });
+const kumbh = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Nadir Zebiri's portfolio",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={inter.className}>
+			<body className={kumbh.className}>
 				<Menu />
 				{children}
 			</body>
