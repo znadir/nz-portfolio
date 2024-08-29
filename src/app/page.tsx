@@ -1,4 +1,5 @@
 "use client";
+import { TypeAnimation } from "react-type-animation";
 
 function IconBtn({ href, svgIcon }: { href: string; svgIcon: JSX.Element }) {
 	return (
@@ -21,7 +22,26 @@ export default function Home() {
 
 			<div className='max-w-screen-xl p-4 mx-auto py-32 md:py-48'>
 				<h1 className='text-5xl md:text-6xl text-blue-600'>Nadir Zebiri</h1>
-				<div className='text-2xl md:text-3xl my-5 md:my-8'>I’m Developer</div>
+				<div className='text-2xl md:text-3xl my-5 md:my-8'>
+					<TypeAnimation
+						sequence={[
+							"I am developer",
+							1000,
+							"I am a designer",
+							1000,
+							"I love coding",
+							1000,
+							"I am a student",
+							1000,
+							"I appreciate clean code",
+							1000,
+							"I follow best practices",
+							1000,
+						]}
+						speed={50}
+						repeat={Infinity}
+					/>
+				</div>
 				<div className='flex space-x-4'>
 					<IconBtn
 						href='https://github.com/znadir'
