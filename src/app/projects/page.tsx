@@ -1,4 +1,11 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Projects - ZNadir",
+	description:
+		"Here are some projects I have done. I mostly work with React, Next.js, and TailwindCSS.",
+};
 
 function Project({
 	title,
