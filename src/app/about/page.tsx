@@ -26,7 +26,7 @@ function LangCard({
 export default function About() {
 	return (
 		<>
-			<div className='max-w-screen-xl p-4 mx-auto pt-16'>
+			<div className='max-w-screen-xl p-4 mx-auto pt-16 w-full'>
 				<h1 className='text-4xl mb-5'>
 					Who I <span className='text-blue-600'>am</span>
 				</h1>
