@@ -8,7 +8,8 @@ const kumbh = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Nadir Zebiri's portfolio",
-	description: "Hi there! I'm Nadir Zebiri, a developer.",
+	description:
+		"Hi there! I'm Nadir Zebiri, a developer. This is my portfolio. I mostly work with React, Next.js, and TailwindCSS. I am currently looking for an internship in software engineering.",
 };
 
 export default function RootLayout({
