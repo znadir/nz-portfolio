@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Metadata } from "next";
+import Container from "../components/container";
 
 export const metadata: Metadata = {
 	title: "About - ZNadir",
@@ -33,7 +34,7 @@ function LangCard({
 export default function About() {
 	return (
 		<>
-			<div className='max-w-screen-xl p-4 mx-auto pt-16 w-full'>
+			<Container>
 				<h1 className='text-4xl mb-5'>
 					Who I <span className='text-blue-600'>am</span>
 				</h1>
@@ -124,7 +125,7 @@ export default function About() {
 						<Image src='/icons/postman.svg' width={51} height={51} alt='Postman' />
 					</LangCard>
 				</div>
-			</div>
+			</Container>
 		</>
 	);
 }

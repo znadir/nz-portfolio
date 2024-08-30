@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Metadata } from "next";
+import Container from "../components/container";
 
 export const metadata: Metadata = {
 	title: "Projects - ZNadir",
@@ -57,7 +58,7 @@ function Project({
 export default function Projects() {
 	return (
 		<>
-			<div className='max-w-screen-xl p-4 mx-auto pt-16 w-full'>
+			<Container>
 				<h1 className='text-4xl mb-5'>My last projects</h1>
 				<p className='text-base mb-5'>Here are some projects I have done:</p>
 
@@ -94,7 +95,7 @@ export default function Projects() {
 						codeLink='https://github.com/znadir/nz-portfolio'
 					/>
 				</div>
-			</div>
+			</Container>
 		</>
 	);
 }
