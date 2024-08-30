@@ -20,7 +20,7 @@ export default function Home() {
 				}
 			`}</style>
 
-			<div className='max-w-screen-xl p-4 mx-auto py-32 md:py-48'>
+			<div className='max-w-screen-xl p-4 mx-auto py-32 md:py-48 w-full'>
 				<h1 className='text-5xl md:text-6xl text-blue-600'>Nadir Zebiri</h1>
 				<div className='text-2xl md:text-3xl my-5 md:my-8'>
 					<TypeAnimation

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Kumbh_Sans } from "next/font/google";
 import "./globals.css";
 import Menu from "./components/menu";
+import Footer from "./components/footer";
 
 const kumbh = Kumbh_Sans({ subsets: ["latin"] });
 
@@ -18,8 +19,12 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={kumbh.className}>
-				<Menu />
-				{children}
+				<div className='flex flex-col min-h-screen'>
+					<Menu />
+					{children}
+					<div className='flex-1' />
+					{<Footer />}
+				</div>
 			</body>
 		</html>
 	);
