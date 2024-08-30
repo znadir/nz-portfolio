@@ -12,7 +12,7 @@ export default function Footer() {
 	}
 
 	return (
-		<footer className='rounded-lg shadow bg-gray-900 mt-7'>
+		<footer className='rounded-lg shadow bg-gray-950 mt-7'>
 			<div className='w-full mx-auto max-w-screen-xl p-4 flex flex-col md:flex-row items-center justify-between'>
 				<span className='text-sm text-gray-400'>
 					© 2023-{currentYear} Nadir Zebiri. All Rights Reserved.

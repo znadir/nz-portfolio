@@ -31,7 +31,7 @@ export default function About() {
 					Who I <span className='text-blue-600'>am</span>
 				</h1>
 				<p className='text-base'>
-					Hello! I am Nadir Zebiri from Montreal, Quebec. &#127464;
+					Hello! I am Nadir Zebiri from Montreal, Quebec. &#128075;
 					<br />I am currently a student of Bois-de-Boulogne and looking for an internship in
 					Software engineering field.
 				</p>
