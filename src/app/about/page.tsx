@@ -9,9 +9,9 @@ function LangCard({
 }>) {
 	return (
 		<div
-			className={`py-4 px-4 md:px-16 border ${
-				purple ? "border-purple-400" : "border-blue-600"
-			} rounded-lg w-fit relative group`}
+			className={`py-4 w-28 md:w-48 border flex items-center justify-center rounded-lg relative group
+                 ${purple ? "border-purple-400" : "border-blue-600"}
+                 `}
 		>
 			{children}
 
@@ -21,7 +21,6 @@ function LangCard({
 		</div>
 	);
 }
-
 export default function About() {
 	return (
 		<>
