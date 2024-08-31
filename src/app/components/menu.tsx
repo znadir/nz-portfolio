@@ -51,7 +51,7 @@ export default function Menu() {
 						<ul className='font-medium text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-16 rtl:space-x-reverse md:mt-0 md:border-0'>
 							{links.map(({ href, label }) => (
 								<li key={href}>
-									<a
+									<Link
 										href={href}
 										className={`block py-2 px-3 rounded md:border-0 md:hover:text-blue-600 md:p-0    ${
 											pathname === href
@@ -60,7 +60,7 @@ export default function Menu() {
 										}`}
 									>
 										{label}
-									</a>
+									</Link>
 								</li>
 							))}
 						</ul>

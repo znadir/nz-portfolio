@@ -1,11 +1,12 @@
 "use client";
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 function IconBtn({ href, svgIcon }: { href: string; svgIcon: JSX.Element }) {
 	return (
-		<a href={href} target='_blank' className='bg-gray-600 p-2 rounded-full'>
+		<Link href={href} target='_blank' className='bg-gray-600 p-2 rounded-full'>
 			{svgIcon}
-		</a>
+		</Link>
 	);
 }
 
