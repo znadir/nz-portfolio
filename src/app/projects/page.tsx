@@ -64,6 +64,14 @@ export default function Projects() {
 
 				<div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
 					<Project
+						title='Eco Essentials'
+						description='[UNDER CONSTRUCTION] Shop eco-friendly products, built using Next.js and MUI.'
+						imgSrc='/project-imgs/eco-essentials.png'
+						imgAlt='Eco Essentials ss'
+						demoLink='https://eco-essentials.vercel.app/'
+						codeLink='https://github.com/znadir/EcoEssentials'
+					/>
+					<Project
 						title='Memtube'
 						description='Memtube is a simple react app to watch endless Reddit memes like Youtube videos! Please note that some memes may be inappropriate, and I do not endorse them '
 						imgSrc='/project-imgs/memtube.png'
