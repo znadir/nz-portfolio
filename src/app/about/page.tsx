@@ -105,6 +105,9 @@ export default function About() {
 					<LangCard tooltipText='MySQL'>
 						<Image src='/icons/mysql.svg' width={50} height={49} alt='MySQL' />
 					</LangCard>
+					<LangCard tooltipText='WPF'>
+						<Image src='/icons/wpf.svg' width={51} height={51} alt='WPF' />
+					</LangCard>
 				</div>
 				<h2 className='text-3xl mt-8 mb-5'>Tools I use</h2>
 				<div className='flex flex-wrap gap-4'>
@@ -123,6 +126,9 @@ export default function About() {
 
 					<LangCard tooltipText='Postman' purple>
 						<Image src='/icons/postman.svg' width={51} height={51} alt='Postman' />
+					</LangCard>
+					<LangCard tooltipText='Unity' purple>
+						<Image src='/icons/unity.svg' width={51} height={51} alt='Unity' />
 					</LangCard>
 				</div>
 			</Container>
