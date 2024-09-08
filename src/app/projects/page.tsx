@@ -65,7 +65,7 @@ export default function Projects() {
 				<div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
 					<Project
 						title='Eco Essentials'
-						description='[UNDER CONSTRUCTION] Shop eco-friendly products, built using Next.js and MUI.'
+						description=' Shop eco-friendly products, built using Next.js, MUI, Prisma and Redux. This project is under development and is not yet finished.'
 						imgSrc='/project-imgs/eco-essentials.png'
 						imgAlt='Eco Essentials ss'
 						demoLink='https://eco-essentials.vercel.app/'
