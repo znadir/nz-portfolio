@@ -26,13 +26,11 @@ export default function Home() {
 				<div className='text-2xl md:text-3xl my-5 md:my-8'>
 					<TypeAnimation
 						sequence={[
-							"I am developer",
+							"I am a developer",
 							1000,
 							"I am a designer",
 							1000,
 							"I love coding",
-							1000,
-							"I am a student",
 							1000,
 							"I appreciate clean code",
 							1000,
