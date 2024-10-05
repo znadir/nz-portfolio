@@ -64,6 +64,14 @@ export default function Projects() {
 
 				<div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
 					<Project
+						title='Routify'
+						description='Take control of your daily routines with this easy-to-use Android app. Built with React Native Expo and Drizzle ORM, it empowers you to create, track, and achieve your goals.'
+						imgSrc='/project-imgs/routify.png'
+						imgAlt='Routify ss'
+						demoLink='https://github.com/znadir/routify/releases/tag/1.0.0'
+						codeLink='https://github.com/znadir/routify'
+					/>
+					<Project
 						title='Eco Essentials'
 						description='Shop eco-friendly products, built using Next.js, MUI, Prisma and Redux. You can create an account, search for product and add products to your cart.'
 						imgSrc='/project-imgs/eco-essentials.png'
