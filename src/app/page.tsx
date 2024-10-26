@@ -62,7 +62,7 @@ export default function Home() {
 						}
 					/>
 					<IconBtn
-						href='https://www.linkedin.com/in/nadir-zebiri-a56711261/'
+						href='https://www.linkedin.com/in/nadir-zebiri-74a212318/'
 						svgIcon={
 							<svg
 								width='30'
