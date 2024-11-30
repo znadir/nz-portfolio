@@ -45,21 +45,23 @@ export default function About() {
 				</p>
 				<h2 className='text-3xl mt-8 mb-5'>Languages I know</h2>
 				<div className='flex flex-wrap gap-4'>
-					<LangCard tooltipText='Python'>
-						<Image src='/icons/python.svg' width={51} height={51} alt='Python' />
-					</LangCard>
-					<LangCard tooltipText='NodeJs'>
-						<Image src='/icons/nodejs.svg' width={45} height={51} alt='Nodejs' />
-					</LangCard>
 					<LangCard tooltipText='C#'>
 						<Image src='/icons/csharp.svg' width={44} height={51} alt='C#' />
-					</LangCard>
-					<LangCard tooltipText='Java'>
-						<Image src='/icons/java.svg' width={39} height={51} alt='java' />
 					</LangCard>
 					<LangCard tooltipText='Typescript'>
 						<Image src='/icons/typescript.svg' width={51} height={51} alt='Typescript' />
 					</LangCard>
+					<LangCard tooltipText='Python'>
+						<Image src='/icons/python.svg' width={51} height={51} alt='Python' />
+					</LangCard>
+					{/* <LangCard tooltipText='NodeJs'>
+						<Image src='/icons/nodejs.svg' width={45} height={51} alt='Nodejs' />
+					</LangCard> */}
+
+					<LangCard tooltipText='Java'>
+						<Image src='/icons/java.svg' width={39} height={51} alt='java' />
+					</LangCard>
+
 					<LangCard tooltipText='SQL'>
 						<Image src='/icons/sql.svg' width={39} height={51} alt='SQL' />
 					</LangCard>
@@ -75,17 +77,17 @@ export default function About() {
 					<LangCard tooltipText='CSS'>
 						<Image src='/icons/css.svg' width={44} height={51} alt='CSS' />
 					</LangCard>
-					<LangCard tooltipText='Javascript'>
+					{/* <LangCard tooltipText='Javascript'>
 						<Image src='/icons/javascript.svg' width={51} height={51} alt='Javascript' />
-					</LangCard>
+					</LangCard> */}
 				</div>
 				<h2 className='text-3xl mt-8 mb-5'>Technologies I use</h2>
 				<div className='flex flex-wrap gap-4'>
-					<LangCard tooltipText='React'>
-						<Image src='/icons/react.svg' width={59} height={51} alt='React' />
-					</LangCard>
 					<LangCard tooltipText='Next.js'>
 						<Image src='/icons/nextjs.svg' width={51} height={51} alt='NextJs' />
+					</LangCard>
+					<LangCard tooltipText='React'>
+						<Image src='/icons/react.svg' width={59} height={51} alt='React' />
 					</LangCard>
 					<LangCard tooltipText='Flask'>
 						<Image src='/icons/flask.svg' width={58} height={51} alt='Flask' />

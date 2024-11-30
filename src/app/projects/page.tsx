@@ -103,13 +103,13 @@ export default function Projects() {
 						demoLink='https://impossible-queez.vercel.app/'
 						codeLink='https://github.com/znadir/impossible-queez'
 					/>
-					<Project
+					{/* <Project
 						title='My portfolio'
 						description='The website you are currently on! It is a simple portfolio website made with Next.js and Tailwind CSS.'
 						imgSrc='/project-imgs/portfolio.png'
 						imgAlt='Portfolio ss'
 						codeLink='https://github.com/znadir/nz-portfolio'
-					/>
+					/> */}
 				</div>
 			</Container>
 		</>
